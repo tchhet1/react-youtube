@@ -23,13 +23,12 @@ function App() {
     {id: 'e3', 
     title: 'Cable',
     amount: 100,
-    date: '2021-5-12'},
+    date: new Date(2022, 8, 14)},
 
   ];
 
   const addExpenseHandler = (data) => {
       console.log(data);
-      
   }
 
   return (
